@@ -7,11 +7,13 @@ import { MenuModule } from "primeng/menu";
 import { MenubarModule } from "primeng/menubar";
 import { ButtonModule } from "primeng/button";
 import { InputTextModule } from "primeng/inputtext";
+import { EditorComponent } from './components/editor/editor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
