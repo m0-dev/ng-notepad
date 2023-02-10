@@ -1,4 +1,4 @@
-name: CI
+name: CI-PIPELINE
 
 on: [push, pull_request]
 
@@ -12,6 +12,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Run Tests
         run: |
           npm test
@@ -22,6 +23,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Linting
         run: |
           npm lint
