@@ -6,11 +6,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Upload coverage reports to Codecov
+      - name: Install
         run: |
           ls -la
           pwd
-          cd ng-notepad/ng-notepad
           npm install
   test:
     runs-on: ubuntu-latest
