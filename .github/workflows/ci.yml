@@ -7,6 +7,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Upload coverage reports to Codecov
+        run: |
+          npm install 
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Tests
+        run: |
+          npm test
+      - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3
         with:
           token: ${{secrets.CODECOV_CODE_COVERAGE}}
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Linting
+        run: |
+          npm lint
