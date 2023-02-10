@@ -1,4 +1,4 @@
-[![CI](https://github.com/m0-dev/ng-notepad/actions/workflows/ci.yml/badge.svg)](https://github.com/m0-dev/ng-notepad/actions/workflows/ci.yml) [![License](https://img.shields.io/:license-MIT-blue.svg?style=flat)](https://opensource.org/licenses/MIT)
+[![PIPELINE](https://github.com/m0-dev/ng-notepad/actions/workflows/ci.yml/badge.svg)](https://github.com/m0-dev/ng-notepad/actions/workflows/ci.yml) [![License](https://img.shields.io/:license-MIT-blue.svg?style=flat)](https://opensource.org/licenses/MIT)
 # Notepad App in Angular
 
 One of the most crucial things in your open source project is the `README.md`
