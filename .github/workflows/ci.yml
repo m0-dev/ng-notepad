@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: Upload coverage reports to Codecov
         run: |
+          ls -la
+          pwd
           cd ng-notepad/ng-notepad
           npm install
   test:
