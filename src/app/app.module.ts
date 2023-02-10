@@ -7,11 +7,15 @@ import { MenuModule } from "primeng/menu";
 import { MenubarModule } from "primeng/menubar";
 import { ButtonModule } from "primeng/button";
 import { InputTextModule } from "primeng/inputtext";
+import { EditorComponent } from './components/editor/editor.component';
+import { EditorModule } from "primeng/editor";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +23,9 @@ import { InputTextModule } from "primeng/inputtext";
     MenuModule,
     MenubarModule,
     ButtonModule,
-    InputTextModule
+    InputTextModule,
+    EditorModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
