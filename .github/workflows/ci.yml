@@ -8,6 +8,7 @@ jobs:
     steps:
       - name: Upload coverage reports to Codecov
         run: |
+          cd ng-notepad/ng-notepad
           npm install
   test:
     runs-on: ubuntu-latest
