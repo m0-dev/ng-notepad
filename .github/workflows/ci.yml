@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Upload coverage reports to Codecov
         run: |
-          npm install 
+          npm install
   test:
     runs-on: ubuntu-latest
     steps:
@@ -26,4 +26,4 @@ jobs:
       - uses: actions/checkout@v3
       - name: Linting
         run: |
-          ng lint
+          npm lint
