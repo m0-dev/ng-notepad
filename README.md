@@ -23,4 +23,4 @@ you'd like. Pull requests are warmly welcome.
 
 ---
 <p align="center">
-This project is licensed under the MIT license. See the <a href="https://github.com/auth0/angular2-jwt/blob/main/LICENSE"> LICENSE</a> file for more info.</p>
+This project is licensed under the MIT license. See the <a href="/LICENSE">LICENSE</a> file for more info.</p>
