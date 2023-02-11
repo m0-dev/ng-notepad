@@ -10,12 +10,14 @@ import { InputTextModule } from "primeng/inputtext";
 import { EditorComponent } from './components/editor/editor.component';
 import { EditorModule } from "primeng/editor";
 import { FormsModule } from "@angular/forms";
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    EditorComponent
+    EditorComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
